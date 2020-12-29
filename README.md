@@ -15,7 +15,7 @@ A laboratory is generating information in its own system. There are files that t
 The application should fulfill the following requirements:
 
 1. Include a README with description of your approach, and any other documentation you want to provide to describe your ETL process.
-1. Data model design (SQL).
+1. Data model (SQL schemas are best).
 1. Code to process file and store the information in the Warehouse.
 
 ### Assumptions
@@ -25,3 +25,10 @@ The application should fulfill the following requirements:
 * One test taker can decide to take several tests (similar or different). Each test can have panel results for more than one analyte.
 * Sample files have been provided in the [sample_data](./sample_data) directory for you to use as a guide.
 * All new files that show up in S3 will contain all columns in the same order (no need to handle out-of-order headers).
+
+### What We Like
+
+* Resilient pipelines.
+* Querying current data and historical data.
+* Quality code.
+* Being able to do automated QA.
